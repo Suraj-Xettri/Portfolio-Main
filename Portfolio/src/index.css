@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mainSide{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 300px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.side-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+.image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.side-writing h2{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.icon{
+  width: 114px;
+  text-align: end;
+}
+
+.icon p{
+  color: rgb(216, 219, 223);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.side-down{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
+  width: 100%;
+  
+}
+.one{
+  width: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+
+.one a{
+  text-decoration: none;
+  color: white;
+  font-weight: 540;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: start;
+
+}
+
+.a{
+  font-size: 18px;
+}
+
+.ab{
+  font-size: 30px;
+}
+
+.abc{
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  .mainSide{
+    width: 240px;
+  }
+}
