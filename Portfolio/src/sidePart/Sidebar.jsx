@@ -10,7 +10,7 @@ export const Sidebar = () => {
     <div className="mainSide">
         <div className="side-top">
             <div className="image">
-                <img src="../public/images/images.jpg"  alt="image" />
+                <img src="../public/images/profile.jpg"  alt="image" />
             </div>
             <div className="side-writing">
                 <h2>Developer</h2>
