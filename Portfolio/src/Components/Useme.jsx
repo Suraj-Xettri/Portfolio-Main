@@ -5,11 +5,11 @@ export const Useme = () => {
     <>
         <div className='useme'>
             <div className="imagesection">
-                <img src="" alt="" />
+                <img src="../images/next.png" alt="" />
             </div>
             <div className="discription">
                 <div className="dis">
-                    <p>E-commerse website</p>
+                    <p id='hard'>E-commerse website</p>
                     <p>By, add to cart functionality</p>  
                 </div>
                 <div className="butt">
@@ -23,12 +23,12 @@ export const Useme = () => {
 
         <div className='useme'>
             <div className="imagesection">
-                <img src="" alt="" />
+                <img src="../images/animeStore.png" alt="" />
             </div>
             <div className="discription">
                 <div className="dis">
-                    <p>Music Player</p>
-                    <p>With search functionality and select functionality</p>  
+                    <p id='hard'>Music Player</p>
+                    <p>With search and select functionality </p>  
                 </div>
                 <div className="butt">
                     <p id='oo'>Tailwind</p>
@@ -40,11 +40,11 @@ export const Useme = () => {
 
         <div className='useme'>
             <div className="imagesection">
-                <img src="" alt="" />
+                <img src="../images/Daraz.png" alt="" />
             </div>
             <div className="discription">
                 <div className="dis">
-                    <p>Daraz UI cloning</p>
+                    <p id='hard'>Daraz UI cloning</p>
                     <p>Simple daraz website UI part cloning</p>  
                 </div>
                 <div className="butt">
