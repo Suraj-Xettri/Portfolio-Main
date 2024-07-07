@@ -6,9 +6,11 @@ function App() {
   return (
     <div className='All'>
       <Sidebar/>
-      <Nav/>
-      <Body/>
-      <BodyTwo/>
+      <div className="overall">
+        <Nav/>
+        <Body/>
+      </div>
+      
     </div>
   )
 }

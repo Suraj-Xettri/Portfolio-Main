@@ -4,12 +4,12 @@ export const Body = () => {
         <div className="body-left">
             <div className="body-one">
                 <div className="body-left-one">
-                    <span>50+</span>
-                    <p>Completed Projects</p>
+                    <span>20+</span>
+                    <p>Personal Projects</p>
                 </div>
                 <div className="body-left-two">
                     <p>Frontend</p>
-                    <p>Intermediate</p>
+                    <p>Developer</p>
                 </div>
             </div>
             <div className="body-two">
