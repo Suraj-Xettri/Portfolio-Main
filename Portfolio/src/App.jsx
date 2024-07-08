@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className='All'>
-      <Sidebar />
+      
       <RouterProvider router={router} />
     </div>
   )
