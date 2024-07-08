@@ -95,7 +95,6 @@
 
 .one a{
   text-decoration: none;
-  color: white;
   font-weight: 540;
   font-size: 15px;
   cursor: pointer;
@@ -159,6 +158,11 @@
 }
 .nav-right a:hover{
   color: blue;
+}
+
+.except{
+  width: calc(100vw - 17vw);
+  margin-left: 17vw;
 }
 
 .body-start{

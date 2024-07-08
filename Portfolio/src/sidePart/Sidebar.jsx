@@ -4,7 +4,7 @@ import { MdContactMail, MdDeveloperBoard  } from "react-icons/md";
 import { BsArchiveFill } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
 
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 
 export const Sidebar = () => {
   return (
@@ -24,25 +24,25 @@ export const Sidebar = () => {
         <div className="side-down">
             <div className="one">
                 <FaHome className="abc"/>
-                <Link to="/">Home</Link>
+                <NavLink to="/" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Home</NavLink>
             </div>
             <div className="one">
                 <BsArchiveFill className="a" />
-                 <Link to="/Project">Project</Link>
+                 <NavLink to="/Project" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Project</NavLink>
             </div>
             <div className="one">
                 <DiGithubBadge className="ab"/>
-                <Link to="/GitHUb"> GithUb</Link>
+                <NavLink to="/GitHUb" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}> GithUb</NavLink>
             </div>
             <div className="one">
                
                 <MdDeveloperBoard className="abc"/>
-                 <Link to="/AboutUs">About</Link>
+                 <NavLink to="/AboutUs" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>About</NavLink>
             </div>
             <div className="one">
               
                 <MdContactMail className="a"/>
-                 <Link to="/Contact">Contact</Link>
+                 <NavLink to="/Contact" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Contact</NavLink>
             </div>
         </div>
 
