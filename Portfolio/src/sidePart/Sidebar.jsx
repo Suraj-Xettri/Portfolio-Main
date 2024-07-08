@@ -4,13 +4,14 @@ import { MdContactMail, MdDeveloperBoard  } from "react-icons/md";
 import { BsArchiveFill } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
 
+import {Link} from "react-router-dom"
 
 export const Sidebar = () => {
   return (
     <div className="mainSide">
         <div className="side-top">
             <div className="image">
-                <img src="../public/images/profile.jpg"  alt="image" />
+                <img src="../images/profile.jpg"  alt="image" />
             </div>
             <div className="side-writing">
                 <h2>Developer</h2>
@@ -22,21 +23,26 @@ export const Sidebar = () => {
 
         <div className="side-down">
             <div className="one">
-                <FaHome className="abc"/><a href="">Home</a>
+                <FaHome className="abc"/>
+                <Link to="/">Home</Link>
             </div>
             <div className="one">
-                <BsArchiveFill className="a" /> <a href="">Project</a>
+                <BsArchiveFill className="a" />
+                 <Link to="/Project">Project</Link>
             </div>
             <div className="one">
-                <DiGithubBadge className="ab"/><a href=""> GithUb</a>
+                <DiGithubBadge className="ab"/>
+                <Link to="/GitHUb"> GithUb</Link>
             </div>
             <div className="one">
                
-                <MdDeveloperBoard className="abc"/> <a href="">About</a>
+                <MdDeveloperBoard className="abc"/>
+                 <Link to="/AboutUs">About</Link>
             </div>
             <div className="one">
               
-                <MdContactMail className="a"/> <a href="">Contact</a>
+                <MdContactMail className="a"/>
+                 <Link to="/Contact">Contact</Link>
             </div>
         </div>
 
