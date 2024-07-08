@@ -1,6 +1,6 @@
 import React from 'react'
-import { Nav } from '../Components/Nav'
-import { Body } from '../Components/Body'
+import { Nav } from '../Components/homeComponents/Nav'
+import { Body } from '../Components/homeComponents/Body'
 const Home = () => {
   return (
     <div className="overall">
