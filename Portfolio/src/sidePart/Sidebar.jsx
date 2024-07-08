@@ -3,9 +3,9 @@ import { SiSurrealdb } from "react-icons/si";
 import { MdContactMail, MdDeveloperBoard  } from "react-icons/md";
 import { BsArchiveFill } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
-export const Sidebar = () => {
 
-   
+
+export const Sidebar = () => {
   return (
     <div className="mainSide">
         <div className="side-top">
