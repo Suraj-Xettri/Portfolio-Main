@@ -1,0 +1,32 @@
+
+.cards{
+    position: relative;
+    width: 500px;
+    height: 380px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .heading {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+
+  .cards p:not(.heading) {
+    font-size: 14px;
+  }
+
+  .cards p:last-child {
+    color: #e81cff;
+    font-weight: 600;
+  }
+
+ 
