@@ -3,7 +3,7 @@ import "./contact.css"
 import { FaEnvelope, FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 const Contact = () => (
-  <div className='except bg-black h-screen gap-14 overflow-hidden flex flex-col items-center'>
+  <div className='except bg-black h-screen gap-14 overflow-hidden flex flex-col items-center pt-6'>
     <div className='flex gap-9 p-3 text-white items-center justify-center flex-col w-full'>
       <h1 className='font-black text-5xl'>Contact</h1>
       <div className='w-8 h-2 bg-purple-600 rounded-2xl mt-[-20px]'></div>
