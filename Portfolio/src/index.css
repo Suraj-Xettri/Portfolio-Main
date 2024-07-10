@@ -32,47 +32,6 @@
   box-sizing: border-box;
 }
 
-
-.side-top{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100%;
-}
-
-.image{
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-}
-
-.image img{
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.side-writing h2{
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.icon{
-  width: 114px;
-  text-align: end;
-}
-
-.icon p{
-  color: rgb(216, 219, 223);
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  gap: 10px;
-}
-
 .side-down{
   margin-top: 50px;
   display: flex;

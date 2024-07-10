@@ -3,13 +3,14 @@ import { SiSurrealdb } from "react-icons/si";
 import { MdContactMail, MdDeveloperBoard  } from "react-icons/md";
 import { BsArchiveFill } from "react-icons/bs";
 import { DiGithubBadge } from "react-icons/di";
+import "./side.css"
 
 import {Link, NavLink} from "react-router-dom"
 
 export const Sidebar = () => {
   return (
     <div className="mainSide">
-        <div className="side-top">
+        {/* <div className="side-top">
             <div className="image">
                 <img src="../images/profile.jpg"  alt="image" />
             </div>
@@ -19,6 +20,15 @@ export const Sidebar = () => {
             <div className="icon">
                  <p><SiSurrealdb /> Suraj Thapa</p>
             </div> 
+        </div> */}
+        <div class="side-top side-card">
+            <div class="image">
+                <img src="../images/profile.jpg"  alt="image" />
+            </div>
+            <div class="card-info">
+                <span>Suraj Thapa</span>
+                <p>Front-End Developer</p>
+            </div>
         </div>
 
         <div className="side-down">
