@@ -7,9 +7,6 @@ const Contact = () => (
     <div className='flex gap-9 p-3 text-white items-center justify-center flex-col w-full'>
       <h1 className='font-black text-5xl'>Contact</h1>
       <div className='w-8 h-2 bg-purple-600 rounded-2xl mt-[-20px]'></div>
-
-
-      
     </div>
 
     <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-[60vw] bg-gray-800 text-white rounded-2xl font-[sans-serif]">
