@@ -24,25 +24,25 @@ export const Sidebar = () => {
         <div className="side-down">
             <div className="one">
                 <FaHome className="abc"/>
-                <NavLink to="/" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Home</NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Home</NavLink>
             </div>
             <div className="one">
                 <BsArchiveFill className="a" />
-                 <NavLink to="/Project" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Project</NavLink>
+                 <NavLink to="/Project" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Project</NavLink>
             </div>
             <div className="one">
                 <DiGithubBadge className="ab"/>
-                <NavLink to="/GitHUb" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}> GithUb</NavLink>
+                <a href="https://github.com/Suraj-Xettri" className="text-white"> GithUb</a>
             </div>
             <div className="one">
                
                 <MdDeveloperBoard className="abc"/>
-                 <NavLink to="/AboutUs" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>About</NavLink>
+                 <NavLink to="/AboutUs" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>About</NavLink>
             </div>
             <div className="one">
               
                 <MdContactMail className="a"/>
-                 <NavLink to="/Contact" className={({isActive}) =>{`${isActive ? "text-orange-700": "text-gray-700"}`}}>Contact</NavLink>
+                 <NavLink to="/Contact" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Contact</NavLink>
             </div>
         </div>
 
