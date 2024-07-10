@@ -38,11 +38,12 @@ export const Body = () => {
             </div>
         </div>
 
+       
         <div className="cards">
             <p className="heading">Your ultimate Frontend partner</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum, enim mollitia ad perferendis quos, delectus, impedit sed veritatis tempore eveniet eaque soluta odit optio alias? Maxime facere consequuntur obcaecati!
-             </p>
-             <p><a href="">Get in Touch &gt;</a></p>
+            </p>
+            <p><a href="">Get in Touch &gt;</a></p>
         </div>
     </div>
   )
