@@ -9,19 +9,8 @@ import {Link, NavLink} from "react-router-dom"
 
 export const Sidebar = () => {
   return (
-    <div className="mainSide">
-        {/* <div className="side-top">
-            <div className="image">
-                <img src="../images/profile.jpg"  alt="image" />
-            </div>
-            <div className="side-writing">
-                <h2>Developer</h2>
-            </div>
-            <div className="icon">
-                 <p><SiSurrealdb /> Suraj Thapa</p>
-            </div> 
-        </div> */}
-        <div class="side-top side-card">
+    <div className="mainSide bg-black border-r border-gray-700">
+        <div class="side-card">
             <div class="image">
                 <img src="../images/profile.jpg"  alt="image" />
             </div>

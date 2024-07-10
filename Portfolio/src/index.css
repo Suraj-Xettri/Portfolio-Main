@@ -24,11 +24,9 @@
   position: fixed;
   width: 17vw;
   height: 100vh;
-  background-color: black;
   color: white;
   align-items: center;
   overflow: hidden;
-  padding-top: 30px;
   box-sizing: border-box;
 }
 
@@ -98,11 +96,6 @@
 .nav-right{
   display: flex;
   align-items: end;
-}
-
-.overall{
-  height: 100vh;
-  overflow: hidden;
 }
 
 .nav-right a{
@@ -211,54 +204,6 @@
   align-items: center;
 }
   
-
-@media (max-width: 800px) {
-  .mainSide{
-    width: 30vw;
-  }
-  .nav-main{
-    margin-left: 30vw;
-    padding: 60px 10px 20px 20px;
-    
-  }
-  .nav-left p {
-    font-size: 30px;
-  }
-
-  .nav-right a{
-    margin-right: 16px;
-    margin-bottom: 1px;
-  }
-  .body-start{
-    margin-left: 30vw;
-    width: calc(100vw - 30vw);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-    
-  }
-  .body-one, .body-two{
-    box-sizing: border-box;
-    justify-content: center;
-    column-gap: 20px;
-  }
-
-    .body-left{
-      margin-left: -60px;
-    }
-
-  .body-left-one, .body-left-two, .body-left-three, .body-left-four{
-    width: 200px;
-    height: 200px;
-  }
-
-  .page-two{
-    margin-left: 30vw;
-    width: calc(100vw - 30vw);
-  }
-}
-
 .next{
   display: flex;
   margin-top: 20px;
@@ -357,4 +302,28 @@
   border: none;
   border-radius: 15px;
   cursor: pointer;
+}
+
+
+.body-container {
+  height: 100vh;
+  overflow: hidden;
+  background: #000000;
+  --gap: 5em;
+  --line: 1px;
+  --color: rgba(255, 255, 255, 0.2);
+
+  background-image: linear-gradient(
+      -90deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    ),
+    linear-gradient(
+      0deg,
+      transparent calc(var(--gap) - var(--line)),
+      var(--color) calc(var(--gap) - var(--line) + 1px),
+      var(--color) var(--gap)
+    );
+  background-size: var(--gap) var(--gap);
 }

@@ -3,7 +3,7 @@ import { Nav } from '../Components/home/Nav'
 import { Body } from '../Components/home/Body'
 const Home = () => {
   return (
-    <div className="overall">
+    <div className="overall body-container">
         <Nav/>
         <Body/>
     </div>
