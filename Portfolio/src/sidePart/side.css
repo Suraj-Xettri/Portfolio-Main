@@ -7,7 +7,7 @@
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background-color: rgba(60, 54, 54, 0.564);
+    background-color: rgba(71, 64, 64, 0.444);
     border-radius: 15px;
     position: relative;
     overflow: hidden;
@@ -22,8 +22,8 @@
     top: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom: 3px solid #434141;
-    background-color: rgb(23, 23, 23);
+    border-bottom: 3px solid white;
+    background-color: black;
     transition: all 0.3s ease;
   }
   

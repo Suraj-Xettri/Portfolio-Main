@@ -1,11 +1,7 @@
-import { FaHome} from "react-icons/fa";
-import { SiSurrealdb } from "react-icons/si";
-import { MdContactMail, MdDeveloperBoard  } from "react-icons/md";
-import { BsArchiveFill } from "react-icons/bs";
-import { DiGithubBadge } from "react-icons/di";
 import "./side.css"
+import { FaHome, FaProjectDiagram, FaGithub, FaInfoCircle, FaEnvelope } from "react-icons/fa";
 
-import {Link, NavLink} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 export const Sidebar = () => {
   return (
@@ -22,29 +18,31 @@ export const Sidebar = () => {
 
         <div className="side-down">
             <div className="one">
-                <FaHome className="abc"/>
-                <NavLink to="/" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Home</NavLink>
+            <NavLink to="/" className={({ isActive }) => `flex gap-4 items-center text-lg ${isActive ? "text-orange-700" : "text-white"} hover:text-orange-700 transition ease-out delay-100`}>
+                <FaHome className="mr-2" /> <span>Home</span>
+            </NavLink>
             </div>
             <div className="one">
-                <BsArchiveFill className="a" />
-                 <NavLink to="/Project" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Project</NavLink>
+            <NavLink to="/Project" className={({ isActive }) => `flex gap-4 items-center text-lg ${isActive ? "text-orange-700" : "text-white"} hover:text-orange-700 transition ease-out delay-100`}>
+                <FaProjectDiagram className="mr-2" /> <span>Project</span>
+            </NavLink>
             </div>
             <div className="one">
-                <DiGithubBadge className="ab"/>
-                <a href="https://github.com/Suraj-Xettri" className="text-white"> GithUb</a>
+            <a href="https://github.com/Suraj-Xettri" className="flex gap-4 items-center text-lg text-white hover:text-orange-700 transition ease-out delay-100">
+                <FaGithub className="mr-2" /> <span>GitHub</span>
+            </a>
+            </div>
+            <div className="one ">
+            <NavLink to="/AboutUs" className={({ isActive }) => `flex gap-4 items-center text-lg ${isActive ? "text-orange-700" : "text-white"} hover:text-orange-700 transition ease-out delay-100`}>
+                <FaInfoCircle className="mr-2" /><span>About</span></NavLink>
+            
             </div>
             <div className="one">
-               
-                <MdDeveloperBoard className="abc"/>
-                 <NavLink to="/AboutUs" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>About</NavLink>
+            <NavLink to="/Contact" className={({ isActive }) => `flex items-center gap-4 text-lg ${isActive ? "text-orange-700" : "text-white"} hover:text-orange-700 transition ease-out delay-100`}>
+                <FaEnvelope className="mr-2" /><span>Contact</span>
+            </NavLink>
             </div>
-            <div className="one">
-              
-                <MdContactMail className="a"/>
-                 <NavLink to="/Contact" className={({isActive}) => isActive ? "text-orange-700": "text-white"}>Contact</NavLink>
-            </div>
-        </div>
-
+      </div>
     </div>
   )
 }
