@@ -1,4 +1,5 @@
 import React from 'react'
+import "./contact.css"
 import { FaEnvelope, FaFacebookF, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
 const Contact = () => (
@@ -86,7 +87,7 @@ const Contact = () => (
           ></textarea>
           <button
             type="submit"
-            className="text-white bg-blue-400 hover:bg-blue-600 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6"
+            className="button text"
           >
             Send
           </button>
