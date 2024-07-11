@@ -29,3 +29,8 @@
 .hovering:hover{
     transform: scale(1.05);
 }
+
+.botton-up:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}

@@ -43,17 +43,17 @@ const About = () => {
       </div>
 
       <div className='flex text-white justify-around items-center pt-10 w-full'>
-          <div className="flex-1 flex justify-center items-center flex-col border-r p-5">
+          <div className="botton-up flex-1 flex justify-center items-center flex-col p-5">
             <p className='text-design'><span>1+</span></p>
             <p className='text-xl'>Working as frontend</p>
           </div>
 
-          <div className="flex-1 flex justify-center items-center flex-col border-r p-5">
+          <div className="botton-up flex-1 flex justify-center items-center flex-col border-l p-5">
             <p className='text-design'>20+</p>
             <p className='text-xl'>Completed Projects</p>
           </div>
 
-          <div className="flex-1 flex justify-center items-center flex-col p-5">
+          <div className="botton-up flex-1 flex justify-center items-center border-l flex-col p-5">
             <p className='text-design'><span>20+</span></p>
             <p className='text-xl'>Satisfied Client</p>
           </div>
