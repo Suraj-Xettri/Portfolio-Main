@@ -82,3 +82,62 @@
   .side-card:hover .card-info {
     transform: translate(0%,-15%);
   }
+
+  .mainSide{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 17vw;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .iam{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .cut{
+    display: none;
+  }
+
+  @media (max-width:980px) {
+    .mainSide{
+      display: none;
+    }
+    .iam{
+      display: block;
+    }
+
+    .cut{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 30px;
+      cursor: pointer;
+      display: block;
+    }
+    .sidebar{
+      position: fixed;
+      display: flex;
+      width: 250px;
+      flex-direction: column;
+      align-items: center;
+      top: 0;
+      gap: 30px;
+      z-index: 2;
+      transition: left .5s;
+    }
+
+    .side-card{
+      display: none;
+    }
+  }
