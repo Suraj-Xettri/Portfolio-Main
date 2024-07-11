@@ -22,7 +22,6 @@
     top: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom: 3px solid white;
     background-color: black;
     transition: all 0.3s ease;
   }
@@ -65,6 +64,7 @@
   .side-card:hover {
     width: 200px;
     border-radius: 250px;
+    background-color: rgba(193, 182, 182, 0.444);
 
     .card-info p{
       font-size: 10px;
