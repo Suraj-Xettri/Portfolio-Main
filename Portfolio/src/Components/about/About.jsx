@@ -20,21 +20,21 @@ const About = () => {
             <p className='font-semibold'>Explore my projects to see my work in action and get a glimpse of the creativity and technical expertise I bring to every project.</p>
           </div>
            <div className='flex flex-col gap-5'>
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center gap-6 hovering'>
               <span className='w-[100px] cursor-pointer'>HTML & CSS</span>
               <div className='color w-[300px] h-3 rounded-3xl'></div>
             </div>
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center gap-6 hovering'>
               <span className='w-[100px] cursor-pointer'>Java Script</span>
               <div className='color w-[400px] h-3 rounded-3xl'></div>
             </div>
 
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center gap-6 hovering'>
               <span className='w-[100px] cursor-pointer'>React</span>
               <div className='color w-[450px] h-3 rounded-3xl'></div>
             </div>
 
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center gap-6 hovering'>
               <span className='w-[100px] cursor-pointer'>Tailwind CSS</span>
               <div className='color w-[300px] h-3 rounded-3xl'></div>
             </div>
@@ -44,18 +44,18 @@ const About = () => {
 
       <div className='flex text-white justify-around items-center pt-10 w-full'>
           <div className="flex-1 flex justify-center items-center flex-col border-r p-5">
-            <p className='text-2xl text-design'><span>1+</span></p>
-            <p id="op">Working as frontend</p>
+            <p className='text-design'><span>1+</span></p>
+            <p className='text-xl'>Working as frontend</p>
           </div>
 
           <div className="flex-1 flex justify-center items-center flex-col border-r p-5">
-            <p className='text-2xl text-design'>20+</p>
-            <p id="op">Completed Projects</p>
+            <p className='text-design'>20+</p>
+            <p className='text-xl'>Completed Projects</p>
           </div>
 
           <div className="flex-1 flex justify-center items-center flex-col p-5">
-            <p className='text-2xl text-design'><span>20+</span></p>
-            <p>Satisfied Client</p>
+            <p className='text-design'><span>20+</span></p>
+            <p className='text-xl'>Satisfied Client</p>
           </div>
         </div>
     </div>

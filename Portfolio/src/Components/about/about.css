@@ -14,8 +14,18 @@
 }
 
 .text-design{
+    font-size: 40px;
+    font-weight: 700;
     background: linear-gradient(264deg,#DF8908 -5.09%, #B415FF 106.28%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.hovering{
+    transition: .4s;
+}
+.hovering:hover{
+    transform: scale(1.05);
 }
