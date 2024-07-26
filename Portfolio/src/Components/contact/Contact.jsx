@@ -35,7 +35,7 @@ const Contact = () => {
       <div className='w-8 h-2 bg-purple-600 rounded-2xl mt-[-20px]'></div>
     </div>
 
-    <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-[60vw] bg-gray-800 text-white rounded-2xl font-[sans-serif]">
+    <div className="grid sm:grid-cols-2 items-start gap-16 p-4 max-w-[60vw] bg-gray-800 text-white rounded-2xl font-[sans-serif]">
         <div>
           <h1 className="text-gray-400 text-3xl font-extrabold">Let's Talk</h1>
           <p className="text-sm text-gray-400 mt-4">
